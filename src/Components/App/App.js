@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <AppContainer>
-        <HeaderContainer>{`</> Snippet`}</HeaderContainer>
+        <HeaderContainer>{`</> Snippy`}</HeaderContainer>
         <Editor></Editor>
       </AppContainer>
     </>
