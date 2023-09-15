@@ -1,22 +1,11 @@
-## </> Snippet
+## </> Snippy
 
 https://snippy.netlify.app/
 
-Snippet is an online javascript text editor.
-Snippet uses Prismjs from Syntax highlighting, redux & react-redux for state management.
+Snippey is an online javascript text editor.
 
-### `npm start`
+Snippey uses Prismjs from Syntax highlighting, redux & react-redux for state management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Language selection added
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Download button added
