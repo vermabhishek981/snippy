@@ -1,0 +1,19 @@
+select {
+  appearance: none;
+  font-size: medium;
+  color: whitesmoke;
+  text-align: center;
+  border: none;
+  background: #404040;
+  width: 14em;
+  height: 2.5em;
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #323232;
+  }
+}

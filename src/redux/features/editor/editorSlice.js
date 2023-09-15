@@ -16,6 +16,7 @@ const initialState = {
   }
   
   export default App;`,
+  lang: `javascript`,
 };
 
 const editorSlice = createSlice({
@@ -23,10 +24,20 @@ const editorSlice = createSlice({
   initialState,
   reducers: {
     setContent: (state, action) => {
-      state.content = action.payload;
+      let text = action.payload;
+      if (text[text.length - 1] === "\n") {
+        text += " ";
+      }
+      state.content = text
+        .replace(new RegExp("&", "g"), "&")
+        .replace(new RegExp("<", "g"), "<");
+    },
+    setLang: (state, action) => {
+      state.lang = action.payload;
+      console.log(state.lang);
     },
   },
 });
 
-export const { setContent } = editorSlice.actions;
+export const { setContent, setLang } = editorSlice.actions;
 export default editorSlice.reducer;
