@@ -1,6 +1,6 @@
 ## </> Snippet
 
-https://snippetio.netlify.app/
+https://snippy.netlify.app/
 
 Snippet is an online javascript text editor.
 Snippet uses Prismjs from Syntax highlighting, redux & react-redux for state management.
