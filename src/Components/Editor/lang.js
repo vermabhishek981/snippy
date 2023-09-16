@@ -1,7 +1,7 @@
 export const languages = [
   { name: "HTML", tag: " html" },
   { name: "CSS", tag: " css" },
-  { name: "JavaScript", tag: " javascript" },
+  { name: "JavaScript", tag: "javascript" },
   { name: "ABAP", tag: " abap" },
   { name: "ABNF", tag: " abnf" },
   { name: "ActionScript", tag: " actionscript" },
