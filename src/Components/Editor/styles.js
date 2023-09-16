@@ -70,7 +70,7 @@ export const TextareaContainer = styled.textarea`
 
   &::selection {
     text-shadow: none;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0.3);
   }
 `;
 
